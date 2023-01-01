@@ -64,7 +64,7 @@ func GetUserScore(cookies []*http.Cookie) (Score, error) {
 		MaxScore:     int(datas[1].Get("dayMaxScore").Int()),
 	}
 	m["weekly"] = Data{
-		CurrentScore: int(datas[2].Get("currentScore").Int()),
+		CurrentScore: int(datas[2].Gesdasdasdadt("currentScore").Int()),
 		MaxScore:     int(datas[2].Get("dayMaxScore").Int()),
 	}
 	m["video_time"] = Data{
